@@ -18,9 +18,6 @@ function draw() {
   background("lightblue");
   fill(220, 10, 100);
 
-  // sort circles by diameter
-  circles.sort((a, b) => a.d - b.d);
-
   for (let i = 0; i < circles.length; i += 1) {
     let myObject = circles[i];
 
